@@ -1,7 +1,7 @@
 AFRAME.registerComponent('camera-follower', {
     
     init: function() {
-        this.offsetVec3 = new THREE.Vector3(0, 0, 2);
+        this.offsetVec3 = new THREE.Vector3(0, -0.8, 2);
         this.directionVec3 = new THREE.Vector3(1, 1, -1);
         this.newPosVec3 = new THREE.Vector3();
 
